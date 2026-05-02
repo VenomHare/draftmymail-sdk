@@ -1,6 +1,6 @@
 {
   "name": "draftmymail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript SDK for generating emails with DraftMyMail AI.",
   "type": "module",
   "main": "./dist/index.js",
@@ -23,18 +23,23 @@
   "publishConfig": {
     "access": "public"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.6.0",
     "typescript": "^5.9.3"
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-    "clean": "rm -rf dist",
-    "prepublishOnly": "npm run clean && npm run build",
-    "prepare": "npm run build",
-    "pack:check": "npm pack --dry-run"
+    "clean": "rm -rf dist"
   },
   "keywords": [],
-  "author": ""
+  "author": "VenomHare <https://github.com/VenomHare>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VenomHare/draftmymail-sdk"
+  },
+  "homepage": "https://github.com/VenomHare/draftmymail-sdk?tab=readme-ov-file",
+  "bugs": {
+    "url": "https://github.com/VenomHare/draftmymail-sdk/issues"
+  }
 }
