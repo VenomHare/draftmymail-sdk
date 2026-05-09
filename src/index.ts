@@ -30,10 +30,9 @@ export class DraftMyMailAI {
 
     private API_URL: string | undefined;
 
-    private KEYS_URL = "https://draftmymail.com/api/keys";
+    private KEYS_URL = "https://draftmymail.com/account/api-keys";
     private UPGRADE_URL = "https://draftmymail.com/pricing";
     private SUPPORT_URL = "https://draftmymail.com/contact";
-
 
     constructor(options?: DMMOptions) {
         if (options?.apiKey) {
